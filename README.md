@@ -16,6 +16,6 @@ The specific modifications I made are:
 
 - Added a Makefile for the R package
 
-- Added an `ifdef` macro to separate out compile warnings for a couple
+- Added an `ifdef` macro to avoid the compilation warnings for a couple
   of lines of `hcubature.c` (line 920) and `pcubature.c` (line 310).
 
