@@ -10,7 +10,7 @@ CRAN limitations on size. Therefore, we make it available with the
 slight modifications here on github so that the build process may
 download it on demand during the build process.
 
-The specific modifications I made are:
+The specific modifications/additions I made are:
 
 - This file
 
@@ -18,4 +18,8 @@ The specific modifications I made are:
 
 - Added an `ifdef` macro to avoid the compilation warnings for a couple
   of lines of `hcubature.c` (line 920) and `pcubature.c` (line 310).
+
+- Added files `code.R` and `code.cpp` to generate the `clencurt-h.RDS`
+  file for use in the R package
+
 
